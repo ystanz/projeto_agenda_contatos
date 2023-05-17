@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="icon" type="image/png" href="./assets/images/title_icon.png">
+    <title>Agenda de Contatos</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="icon">
+            <img src="./assets/images/contact_icon.png" alt="Ícone de agenda telefônica">
+            <h1>Meus Contatos</h1>
+            </div>
+        </header>
+        <form id="contact_form">
+            <input type="text" required placeholder="Escreva o nome do contato" id="contact_name"/>
+            <input type="tel" maxlength="11" required placeholder="Escreva o número do contato" id="contact_number"/>
+            <button type="submit"><img src="./assets/images/contact_icon2.png" alt="Símbolo de adição"></button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th class="th_names_list">Nome</th>
+                    <th>Número</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <footer>
+    <p><a href="https://github.com/ystanz" target="_blank">developed by ystanz.</a></p>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
